@@ -26,6 +26,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 
 /* Send button */
@@ -37,6 +38,7 @@
     padding: 8px 15px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    margin-top: 10px;
 }
 
 #send-button:hover {
